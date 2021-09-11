@@ -1,0 +1,17 @@
+public class Kcg
+
+{
+
+public static void main(String a[]) // it should be agrs[] 
+
+{
+
+char a=’s’; // character should be in "" 
+
+int s=95;
+
+a=s;   //conversion from int to char a=s it cant be done  ;
+
+}
+
+}
