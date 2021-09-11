@@ -1,0 +1,19 @@
+class sqrandsqrt
+{
+  public static void main( String args[])
+ {
+     Double sqr , num , sqrt , i ;
+     Scanner sc= new Scanner(System.in);
+     System.out.print("Enter a number :");
+     num=sc.nextDouble();
+     sqr = (num*num) ;
+     System.out.println("Square of "+num+"is :"+sqr);
+     sqrt = num/2 ;
+     do{
+         i=sqrt ;
+         sqrt = (i+(num/2))/2;
+    }while((i-sqrt)!=0);
+    System.out.println("Square root of"+num+"is:"+sqrt);
+     
+}  
+}
